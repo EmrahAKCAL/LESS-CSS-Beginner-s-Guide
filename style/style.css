@@ -1,0 +1,16 @@
+h1 {
+  color: blue;
+  font-size: 36px;
+  margin: 40px;
+}
+.card-student {
+  border: 1px solid red;
+  width: 600px;
+  background-color: yellow;
+  margin: 10px;
+}
+.first-student {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+}
