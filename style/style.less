@@ -9,7 +9,7 @@ h1 {
     font-size: 36px;
     margin: 40px;
 }
-
+/*
 .card-student {
     border: 1px solid @border-color;
     width: 600px;
@@ -22,3 +22,17 @@ h1 {
  padding: 10px;
  color: white;
 }
+*/
+
+//Mixin
+.card-student {
+    border: 1px solid @border-color;
+    width: 600px;
+    background-color: @bg-color;
+    margin: @margin;
+}
+.first-student {
+    .card-student;
+    font-size: 18px;
+    color: red;
+   }
