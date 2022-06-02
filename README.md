@@ -1,5 +1,5 @@
 # LESS-CSS-Beginner-s-Guide
-<p>Bu depoda, en popüler CSS Ön İşlemcilerinden biri olan ve Bootstrap gibi birçok ön uç çerçevesinde yaygın olarak kullanılan LESS'i inceleyeceğiz.
+<p>Bu depoda, en popüler CSS ön işlemcilerinden biri olan ve Bootstrap gibi birçok framework Front-end tarafından yaygın olarak kullanılan LESS'i inceleyeceğiz.
 <br>Bildiğimiz normal CSS'den farklı olarak, LESS daha çok bir programlama dili gibi çalışır. <br>LESS daha hızlı ve kolay CSS yazabilmemizi sağlayan <ins>dinamik bir araçtır</ins>.</p>
 <h4>Sunduğu kolaylıklardan öne çıkanlar şu şekilde sıralabiliriz;</h4>
 <ul>
