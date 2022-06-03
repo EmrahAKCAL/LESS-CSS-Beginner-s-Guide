@@ -9,3 +9,7 @@
   <li><strong>  Operations (Dört İşlem):</strong> LESS içerisinde çarpma, bölme,toplama ve çıkarma işlemleri de yapabiliyoruz. Bu da önceden tanımlanılan değişkeni başka bir yerde kullanmak istediğimizde bu özellik sayesinde bir işleme tabi tutabiliriz.</li>
   <li><strong>  Functions (Fonksiyonlar):</strong> LESS’in fonksiyon desteği onu daha da programlama dili gibi göstermekte. Yapımcılar tarafından tanımlanmış birkaç fonksiyonu artık stil kodlarımız içinde kullanabiliyoruz.</li>
 </ul>
+<h2> Variables (Değişkenler)</h2>
+Less stil dosyamızda normal proglama dillerinde değişken tanımlar gibi bir değişken tanımlayabiliyoruz. Örneğin bir stil özelliğini bir değişken içerisinde tanımlayarak bu stili kullanmak istediğimiz elementlerde tanımladığımız değişkenle çağrılır. Bu da olası bir durumda birgün bu stili değiştirmek istediğimizde tek tek elemenler içerisine gitmek yerine tanımlamış olduğumuz değişkende değiştirmemiz yeterlidir. Hem zamandan tasarruf ederek daha doğru bir şekilde tüm elementlerdeki bu stili değiştirmiş oluyoruz hem de can sıkıcının önüne geçmiş oluyoruz.<br><br>Aşağıda LESS-CSS ve CSS kodların karşılaştırıllması verilmiştir.<br><br>
+
+![Adsız](https://user-images.githubusercontent.com/48285856/171798771-15629c2d-881d-4842-8bb0-cd7f29acc9e0.png)
