@@ -13,3 +13,9 @@
 Less stil dosyamızda normal proglama dillerinde değişken tanımlar gibi bir değişken tanımlayabiliyoruz. Örneğin bir stil özelliğini bir değişken içerisinde tanımlayarak bu stili kullanmak istediğimiz elementlerde tanımladığımız değişkenle çağrılır. Bu da olası bir durumda birgün bu stili değiştirmek istediğimizde tek tek elemenler içerisine gitmek yerine tanımlamış olduğumuz değişkende değiştirmemiz yeterlidir. Hem zamandan tasarruf ederek daha doğru bir şekilde tüm elementlerdeki bu stili değiştirmiş oluyoruz hem de can sıkıcının önüne geçmiş oluyoruz.<br><br>Aşağıda LESS-CSS ve CSS kodların karşılaştırıllması verilmiştir.<br><br>
 
 ![Adsız](https://user-images.githubusercontent.com/48285856/171798771-15629c2d-881d-4842-8bb0-cd7f29acc9e0.png)
+
+<br>
+<h2>  Mixins (Stil Birleştirmeleri)</h2>
+Mixins(Stil Birleştirme), bir elementteki stil özelliklerini başka bir elemente aktarmaktır. Örneğin bir elemente bazı özellikler verdik, başka bir element için de bazı özelliklerin yanında tanımlamış olduğumuz eleemtin özelliklerini de içermesini istiyorsak o element class ını kendi classımıza eklememiz yeterliditr. Böylelikle aynı stil özelliklerini tekrar tekrar yazmamıza gerek kalmaz...<br><br>  
+
+![Adsız](https://user-images.githubusercontent.com/48285856/171990958-46ea0b9d-62ca-479c-a9ca-f8ed0e0256a0.png)
