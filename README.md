@@ -5,7 +5,7 @@
 <ul>
   <li><strong>Variables(Değişkenler):</strong> Örneğin projenize @yazirengi diye bir renk tanımladınız. Daha sonrasında bu değişkeni tüm stil tanımlamalarınızda kullanabilirsiniz. İlerde değiştirmek istediğinizde de hepsini birden yönetmeniz mümkün oluyor.</li>
   <li><strong> Mixins (Stil Birleştirmeleri):</strong> Mixins yapısı sayesinde daha önce başka bir class için tanımladığımız stil seçeneklerini bir başka eleman için de kullanılabilir kılıyoruz. Normal CSS yazarken bu işlem bir çok kodu copy paste yapmamıza sebep olur ve satır sayısını fazlasıyla arttırırdı.</li>
- <li><strong>  Nesting Items (İç içe elemanlar):</strong> İç içe olan elemanları tanımlarken de işler kolaylaşıyor. Eskiden olduğu gibi uzun selectorler yazmamıza artık gerek yok.</li>
+ <li><strong>  Nested Rules (İç içe elemanlar):</strong> İç içe olan elemanları tanımlarken de işler kolaylaşıyor. Eskiden olduğu gibi uzun selectorler yazmamıza artık gerek yok.</li>
   <li><strong>  Operations (Dört İşlem):</strong> LESS içerisinde çarpma, bölme,toplama ve çıkarma işlemleri de yapabiliyoruz. Bu da önceden tanımlanılan değişkeni başka bir yerde kullanmak istediğimizde bu özellik sayesinde bir işleme tabi tutabiliriz.</li>
   <li><strong>  Functions (Fonksiyonlar):</strong> LESS’in fonksiyon desteği onu daha da programlama dili gibi göstermekte. Yapımcılar tarafından tanımlanmış birkaç fonksiyonu artık stil kodlarımız içinde kullanabiliyoruz.</li>
 </ul>
@@ -19,3 +19,10 @@ Less stil dosyamızda normal proglama dillerinde değişken tanımlar gibi bir d
 Mixins(Stil Birleştirme), bir elementteki stil özelliklerini başka bir elemente aktarmaktır. Örneğin bir elemente bazı özellikler verdik, başka bir element için de bazı özelliklerin yanında tanımlamış olduğumuz eleemtin özelliklerini de içermesini istiyorsak o element class ını kendi classımıza eklememiz yeterliditr. Böylelikle aynı stil özelliklerini tekrar tekrar yazmamıza gerek kalmaz...<br><br>  
 
 ![Adsız](https://user-images.githubusercontent.com/48285856/171990958-46ea0b9d-62ca-479c-a9ca-f8ed0e0256a0.png)
+
+<br>
+<h2>  Nested Rules (İç İçe Elemanlar)</h2>
+Bu özelliğin amacı CSS de bir elementin alt elementlerine stil özelliği vermek istediğimizde bu alt elemente gitmek için uzunca selectorler yazmamızı ortadan kaldırmaktır. Böylelikle hem uzun selektorleri yazmamızı ortadan kaldırmış oluyoruz hem de daha anlaşılır bir yapı kullamış oluyoruz. 
+<br>  
+
+![Adsız](https://user-images.githubusercontent.com/48285856/172069820-7fb0b4e4-a646-49d0-9db3-a8c3179cd22f.png)
