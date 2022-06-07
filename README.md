@@ -26,3 +26,15 @@ Bu özelliğin amacı CSS de bir elementin alt elementlerine stil özelliği ver
 <br>  
 
 ![Adsız](https://user-images.githubusercontent.com/48285856/172069820-7fb0b4e4-a646-49d0-9db3-a8c3179cd22f.png)
+
+<br>
+<h2>  Operations (Dört İşlem)</h2>
+ 
+Stil sayfasındaki sayılara, renklere ve değişkenlere toplama, çıkarma, çarpma ve bölme gibi işlemleri LESS'te de yapabiliriz. <br>
+Diyelim ki B elemanı A elemanından iki kat daha büyük olsun. Bu durumda şöyle yazabiliriz:
+<br>  
+
+![Adsız](https://user-images.githubusercontent.com/48285856/172378413-3e4c3367-599f-4d5d-972a-5f9b7fffd50e.png)
+
+<br>
+<strong>NOT:</strong> Operatörleri kullanırken operator arasına birer boşluk bırakmayı unutmayınız. Aksi takdirde yapmış olduğunuz işlemi bir değişken gibi davranacaktır.
