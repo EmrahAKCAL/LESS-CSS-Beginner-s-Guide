@@ -21,6 +21,11 @@ Mixins(Stil Birleştirme), bir elementteki stil özelliklerini başka bir elemen
 ![Adsız](https://user-images.githubusercontent.com/48285856/171990958-46ea0b9d-62ca-479c-a9ca-f8ed0e0256a0.png)
 
 <br>
+Less'in  Mixins ile gelen harika başka bir özelliği daha var. "<strong>&</strong>" oparatörü kulllanarak bulunduğu selectoru temsil edecektir. Böylelikle daha hızlı kod yazmamızı sağlamaktadır. Yalnız bu operatörü kullanmak için ilgili selector dizinin içerisinde olmalıyız. Çünkü program ancak bu şekilde operatör hangi selectoru temsil edeceğini bilir.<br><br>
+
+![Adsız](https://user-images.githubusercontent.com/48285856/173003577-c9a84bc7-082c-4f2f-8773-788b9070c044.png)
+
+<br>
 <h2>  Nested Rules (İç İçe Elemanlar)</h2>
 Bu özelliğin amacı CSS de bir elementin alt elementlerine stil özelliği vermek istediğimizde bu alt elemente gitmek için uzunca selectorler yazmamızı ortadan kaldırmaktır. Böylelikle hem uzun selektorleri yazmamızı ortadan kaldırmış oluyoruz hem de daha anlaşılır bir yapı kullamış oluyoruz. 
 <br>  
