@@ -43,3 +43,11 @@ Diyelim ki B elemanı A elemanından iki kat daha büyük olsun. Bu durumda şö
 
 <br>
 <strong>NOT:</strong> Operatörleri kullanırken operator arasına birer boşluk bırakmayı unutmayınız. Aksi takdirde yapmış olduğunuz işlemi bir değişken gibi davranacaktır.
+<br>
+<h2>  Maps (Haritalar)</h2>
+ Bu özellik ile bir selector içerisinde kullanılan stilleri miras alabiliriz.
+<br><br>  
+
+![Adsız](https://user-images.githubusercontent.com/48285856/173512317-ecd856dd-780b-44d8-8bfa-b1a49d349d98.png)
+
+<br>
