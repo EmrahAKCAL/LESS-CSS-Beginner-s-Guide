@@ -33,6 +33,12 @@ Bu özelliğin amacı CSS de bir elementin alt elementlerine stil özelliği ver
 ![Adsız](https://user-images.githubusercontent.com/48285856/172069820-7fb0b4e4-a646-49d0-9db3-a8c3179cd22f.png)
 
 <br>
+<h3>Nested At-Rules and Bubbling (İç İçe Kurallar ve Kabarcıklanma)</h3>
+<p><strong> @media </strong> veya <strong> @supports </strong> gibi iç içe kuralları seçicilerle aynı şekilde iç içe yerleştirilebilir. İç içe kuralı en üste yerleştirilir ve aynı kural kümesi içindeki diğer öğelere göre göreli sıralama değişmeden kalır. Buna <strong>bubbling</strong> denir.</p><br><br>
+
+![codea](https://user-images.githubusercontent.com/48285856/174594988-bc13f774-37ad-43a7-b951-f03da02b75ad.png)
+
+<br>
 <h2>  Operations (Dört İşlem)</h2>
  
 Stil sayfasındaki sayılara, renklere ve değişkenlere toplama, çıkarma, çarpma ve bölme gibi işlemleri LESS'te de yapabiliriz. <br>
