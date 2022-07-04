@@ -9,6 +9,14 @@
   <li><strong>  Operations (Dört İşlem):</strong> LESS içerisinde çarpma, bölme,toplama ve çıkarma işlemleri de yapabiliyoruz. Bu da önceden tanımlanılan değişkeni başka bir yerde kullanmak istediğimizde bu özellik sayesinde bir işleme tabi tutabiliriz.</li>
   <li><strong>  Functions (Fonksiyonlar):</strong> LESS’in fonksiyon desteği onu daha da programlama dili gibi göstermekte. Yapımcılar tarafından tanımlanmış birkaç fonksiyonu artık stil kodlarımız içinde kullanabiliyoruz.</li>
 </ul>
+
+<h2> Less'i Yükleme</h2>
+<p>Less'i bilgisayarımıza yüklemenin en basit yolu komut satırını(terminal ekranını) kullanmaktır. <br> Less'i kurmadan önce bilgisayarınıza <a href="https://nodejs.org/en/download/">NodeJS</a> kurulumu ile gelen <strong>npm</strong> olması gerekir. NodeJS'i yükledikten sonra aşağıdaki komut satırlarını terminalinizde çalıştırın.</p>
+<ul>
+<li><strong> npm install less -g </strong> </li>
+</ul>
+<p>Burada <strong> -g</strong> seçeneği, global olarak kullanılabilen lessc komutunu yükler. Belirli bir sürüm (veya etiket) için paket adımızdan sonra @VERSION ekleyebilirsiniz, ör. <strong>npm install less@4.1.2</strong></p>
+
 <h2> Variables (Değişkenler)</h2>
 Less stil dosyamızda normal proglama dillerinde değişken tanımlar gibi bir değişken tanımlayabiliyoruz. Örneğin bir stil özelliğini bir değişken içerisinde tanımlayarak bu stili kullanmak istediğimiz elementlerde tanımladığımız değişkenle çağrılır. Bu da olası bir durumda birgün bu stili değiştirmek istediğimizde tek tek elemenler içerisine gitmek yerine tanımlamış olduğumuz değişkende değiştirmemiz yeterlidir. Hem zamandan tasarruf ederek daha doğru bir şekilde tüm elementlerdeki bu stili değiştirmiş oluyoruz hem de can sıkıcının önüne geçmiş oluyoruz.<br><br>Aşağıda LESS-CSS ve CSS kodların karşılaştırıllması verilmiştir.<br><br>
 
