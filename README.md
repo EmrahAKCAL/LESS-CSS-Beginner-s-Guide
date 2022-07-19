@@ -17,6 +17,9 @@
 </ul>
 <p>Burada <strong> -g</strong> seçeneği, global olarak kullanılabilen lessc komutunu yükler. Belirli bir sürüm (veya etiket) için paket adımızdan sonra @VERSION ekleyebilirsiniz, ör. <strong>npm install less@4.1.2</strong></p>
 
+<h2>Variable Interpolation</h2>
+<p>Değişken enterpolasyonu, bir veya daha fazla değişken içeren bir ifadeyi veya değişmezi değerlendirme sürecidir ve değişkenlerin karşılık gelen değerleriyle değiştirildiği çıktıyı verir. Değişkenler, selector isimleri, property isimleri, URL'ler ve @import ifadeleri gibi başka yerlerde de kullanılabilir.</p>
+
 <h2> Variables (Değişkenler)</h2>
 Less stil dosyamızda normal proglama dillerinde değişken tanımlar gibi bir değişken tanımlayabiliyoruz. Örneğin bir stil özelliğini bir değişken içerisinde tanımlayarak bu stili kullanmak istediğimiz elementlerde tanımladığımız değişkenle çağrılır. Bu da olası bir durumda birgün bu stili değiştirmek istediğimizde tek tek elemenler içerisine gitmek yerine tanımlamış olduğumuz değişkende değiştirmemiz yeterlidir. Hem zamandan tasarruf ederek daha doğru bir şekilde tüm elementlerdeki bu stili değiştirmiş oluyoruz hem de can sıkıcının önüne geçmiş oluyoruz.<br><br>Aşağıda LESS-CSS ve CSS kodların karşılaştırıllması verilmiştir.<br><br>
 
